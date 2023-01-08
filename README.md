@@ -1,2 +1,2 @@
-# Makhehla Mkhize's Example site
-## WWD 230
+# Makhehla Mkhize
+## WWD 230  
