@@ -1,3 +1,20 @@
 @media only screen and (min-width: 600px){
-
+    nav{
+        display: block;
+        text-align: right;
+    }
+    header{
+        text-align: left;
+    }
+    #name{
+        margin-left: 20vw ;
+        font-size: 30px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    main h2{
+        grid-column: 1/3;
+    }
 }
