@@ -33,7 +33,7 @@ main{
 
 }
 main h2{
-    width: 80vw auto;
+    width: 80vw;
     border-bottom: solid black 2px;
     text-align: center;
 }
