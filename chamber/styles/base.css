@@ -1,34 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
 body{
     text-align: center;
-    font-family: 'Prata', serif;
+    font-family: 'Prata', serif; 
 }
-nav{
-    background-color: #57f09e;
-    display: flex;
-    flex-direction: column-reverse;
+@media only screen and (max-width: 699px) {
+    nav{
+        background-color: #57f09e;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        border: #57f09e solid 5px;
+    }
+    nav a{
+        display: none;
+    }
+    nav a.open{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: black;
+        color: #57f09e;
+        border: #57f09e solid 5px;
+        text-decoration: none;
+        height: 10vw;
+        padding-bottom: 20px;
+        
+    }
+}
+h1{
+    margin: 0;
 }
 header{
     background-color: black;
     color: #57f09e;
     padding: 0;
 }
-header h1{
-    padding: 0;
-    margin: 0;
-}
+
 #heroImage{
     height: 30vw;
     width: 100vw;
+    object-fit:cover;
+    object-position: center center;
 }
 .info{
     background-color: black;
     color: #57f09e;
     border: black 1px solid;
-    width: 50vw;
-    height: 50vw;
+    border-radius: 10px;
+    width: 50vw; 
     margin: 10px auto;
 }
+.info h3{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
 h3{
     margin: 0;
+}
+#spotLight{
+    background-color: #57f09e;
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 50vw;
+    margin: 0 auto;
+}
+#spotLight h2{
+    background-color: black;
+    color: #57f09e;
+    margin: 0;
+    height: 50px;
+}
+#spotLight h3{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: #57f09e;
+}
+#upperSection, #lowerSection{
+    border: #57f09e solid 5px;
+    padding: 10px;
 }

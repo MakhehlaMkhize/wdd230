@@ -1,0 +1,28 @@
+@media only screen and (min-width: 700px){
+    nav{
+        background-color: #57f09e;
+        height: 50px;
+    }
+    .material-symbols-outlined{
+        display: none;
+    }
+    .navItem a{
+        padding: 20px;
+        background-color: black;
+        color: #57f09e;
+        padding-top: 50px;
+    }
+    .infoSpace{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+       
+    }
+    #spotLight{
+        grid-column: 1/3;
+     
+       
+    }
+
+  
+}

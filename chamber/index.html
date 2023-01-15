@@ -6,48 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Durban Latter-Day Saints Chamber of Commerce</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <nav>
-        <span><a href="">Home</a></span>
-        <span><a href="#">Discover</a></span>
-        <span><a href="#">Directory</a></span>
-        <span><a href="#">Join</a></span>
-        <span class="material-symbols-outlined"><button>menu</button> </span>
-    </nav>
     <header>
-        <h1>Durban Latter-Day Saints Chamber of Commerce</h1>
+        <nav>
+            <span class="navItem"><a href="index.html">Home</a></span>
+            <span class="navItem"><a href="#">Discover</a></span>
+            <span class="navItem"><a href="#">Directory</a></span>
+            <span class="navItem"><a href="#">Join</a></span>
+            <span class="material-symbols-outlined"><button>menu</button> </span>
+        </nav>
+        <h1> Durban Latter-Day Saints Chamber of Commerce</h1>
     </header>
     <main>
         <div>
             <img id="heroImage" src="images/durbanHeroImage.jpg" alt="City of Durban">
-            <button>Join The Network</button>
+            <button id="btn">Join The Network</button>
         </div>
-        <div class="info" id="events">
-            <h3>Events</h3>
-        </div>
-        <div class="info" id="weather">
-            <h3>Weather</h3>
-        </div>
-        <div>
-            <h2>Member Spotlights</h2>
-            <div>
-                <h3>Advertise Here</h3>
+        <div class="infoSpace">
+            <div class="info" id="events">
+                <h3>Events</h3>
+                <p><b>Durban Self-Reliance Workshop:</b><br><br> The Church of Jesus Christ of Latter-Day Saints will be hosting <span id="moreInfo"></span> a Self-Reliance Workshop. <br><br> Date: 20 February 2023 <br>Time: 10h00 <br>Venue : <a id="venue" href="https://goo.gl/maps/PzWzGNbaZsFqGoen9" target="_blank" ><span class="material-symbols-outlined">
+                    location_on
+                    </span>144 Silverton Road, Musgrave</a>  </p>
             </div>
+            <div class="info" id="weather">
+                <h3>Weather</h3>
+                <div class="UQt4rd"><img class="wob_tci" alt="Sunny" src="//ssl.gstatic.com/onebox/weather/64/sunny.png" id="wob_tci" data-atf="1" data-frt="0"><div jscontroller="e0Sh5" class="Ab33Nc" aria-level="3" role="heading"><div><div class="vk_bk TylWce SGNhVe"><span class="wob_t q8U8x" id="wob_tm" style="display:inline">29</span><span class="wob_t" id="wob_ttm" style="display:none">85</span></div><div jscontroller="e0Sh5" class="vk_bk wob-unit"><span class="wob_t" style="display:inline" aria-label="°Celsius" aria-disabled="true" role="button">°C</span><a class="wob_t" href="#" style="display:none;text-decoration:none" data-lams="" data-metric="true" data-url="/setprefs?fheit=0&amp;sig=0_GG0PmKwywh7LOmuO-s-81VFtyNs=&amp;prev=https://www.google.com/search%3Fq%3Dweather%2Bin%2Bjohannesburg%2Btomorrow%26rlz%3D1C1VDKB_enZA1026ZA1026%26oq%3Dweathe%26aqs%3Dchrome.1.69i57j35i39i285j0i10i433i512l2j0i10i433i457i512j0i402l2j0i10i433i512l2j0i10i512.4001j1j15%26sourceid%3Dchrome%26ie%3DUTF-8" role="button" jsaction="ytDzMd" data-ved="2ahUKEwjEsqHj3sn8AhUQacAKHb2mBXIQ-lt6BAgGEAE"><span aria-label="°Celsius">°C</span></a><span class="Az4ne"></span><a class="wob_t" href="#" style="display:inline;text-decoration:none;margin-left:-1px" data-lams="" data-metric="false" data-url="/setprefs?fheit=1&amp;sig=0_GG0PmKwywh7LOmuO-s-81VFtyNs=&amp;prev=https://www.google.com/search%3Fq%3Dweather%2Bin%2Bjohannesburg%2Btomorrow%26rlz%3D1C1VDKB_enZA1026ZA1026%26oq%3Dweathe%26aqs%3Dchrome.1.69i57j35i39i285j0i10i433i512l2j0i10i433i457i512j0i402l2j0i10i433i512l2j0i10i512.4001j1j15%26sourceid%3Dchrome%26ie%3DUTF-8" role="button" jsaction="ytDzMd" data-ved="2ahUKEwjEsqHj3sn8AhUQacAKHb2mBXIQ-1t6BAgGEAI"></a>    </div></div></div><div class="wtsRwe"><div>Precipitation: <span id="wob_pp">0%</span></div><div>Humidity: <span id="wob_hm">29%</span></div><div>Wind: <span><span class="wob_t" id="wob_ws">16 km/h</span><span class="wob_t" style="display:none" id="wob_tws">10 mph</span></span></div></div></div>
+            </div>
+            <div id="spotLight">
+                <h2>Member Spotlights</h2>
+                <div>
+                    <h3>Advertise Here</h3>
+                </div>
+            </div>
+
         </div>
+        
     </main>
     <footer>
         <div>
             <p>
-                <span>Durban Latter-Day Saints Chamber of Commerce <br> info@Durbancc.org <br> +(27) 81 794 0122 <br>Location Map</span> 
-                <span> &copy; <span id="date"></span> Durban Latter-Day Saints Chamber Makhehla Mkhize WDD 230 Project Last Modification: <span id="lastModified"></span> <span></span></span>
+                <div id="upperSection"><span>Durban Latter-Day Saints Chamber of Commerce</span> <br><br><span>info@Durbancc.org <br> +(27) 81 794 0122 <br>Location Map</span> </div> 
+                <div id="lowerSection"> &copy; <span id="date"></span> Durban Latter-Day Saints Chamber of Commerce | Makhehla Mkhize | WDD 230 Project Last Modification: <span id="lastModified"></span> <span></span></div>
                 
             </p>
         </div>
     </footer>
     <script src="scripts/lastModifiedScript.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
 </body>
 </html>
