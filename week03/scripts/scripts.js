@@ -1,0 +1,1 @@
+const lastModified = document.querySelector(#lastModification);
