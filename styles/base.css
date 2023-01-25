@@ -18,20 +18,17 @@ nav a, nav span{
     margin: 10px;
     font-size: 25px; 
 }
-@media only screen and (max-width: 600px){
-    nav a{
-        display: none;
-    }
-    nav a.open{
-        display: flex;
-        text-align: center;
-        flex-direction: column-reverse;
-    }
-    .close::before{
-        content: "❌";
-    }
+nav a{
+    display: none;
 }
-
+nav a.open{
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+.close::before{
+    content: "❌";
+}
 
 header{
     background: #9de0fd;
@@ -46,17 +43,40 @@ header span{
     font-size: 150%;
     vertical-align: middle;
 }
+main{
+    width: auto;
+    height: auto;
+}
+#temple{
+    position:absolute;
+    font-weight: 900;
+    
+}
+main picture img{
+    width: 100%;
+}
 main h2{
-    width: 80vw;
+    width: 100%;
     border-bottom: solid black 2px;
     text-align: center;
+}
+#learningActivity span{
+    text-align: left;
+    margin-left: 10px;
 }
 .card{
     border:solid black 1px;
     border-radius: 10px;
     max-width: 450px;
-    margin: 0 auto 10px;
     height: auto;
+    margin: 0 auto 10px;
+}
+.card span{
+    list-style: none;
+    text-align: center;
+}
+.cardContent{
+    text-align: left;
 }
 main h3{
     border-bottom: #9de0fd solid 1px;
@@ -65,4 +85,8 @@ main h3{
     border-top-right-radius: 10px;
     height: 50px;
     margin: auto;  
+}
+iframe{
+    width: 100%;
+    height: auto;
 }
