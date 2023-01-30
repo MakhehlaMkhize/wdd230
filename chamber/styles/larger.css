@@ -20,8 +20,22 @@
     }
     #spotLight{
         grid-column: 1/3;
-     
-       
+    }
+    .discover main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .sidebar{
+        width: 300px;
+        height: fit-content;
+    }
+    .images img{
+        border: #57f09e solid 10px;
+        filter: grayscale();
+    }
+    .images img:hover{
+        filter: none;
+        scale: 1.1;
     }
 
   

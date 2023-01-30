@@ -81,8 +81,32 @@ h3{
 footer{
     background-color: black;
     color: #57f09e;
+
 }
 #upperSection, #lowerSection{
     border: #57f09e solid 5px;
     padding: 10px;
+}
+aside{
+    border: black solid 2px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px auto 10px;
+    background-color: #57f09e;
+    padding: 10px;
+}
+#events{
+    width: 100%;
+}
+.images {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.images img{
+    width: 100%;
+    height: auto;
+}
+.sidebar{
+    border: #57f09e;
+    background-color: black;
 }
