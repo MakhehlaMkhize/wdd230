@@ -110,3 +110,7 @@ aside{
     border: #57f09e;
     background-color: black;
 }
+:root {
+    --main-color: hotpink;
+    --pane-padding: 5px 42px;
+  }
