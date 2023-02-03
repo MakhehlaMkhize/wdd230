@@ -1,7 +1,7 @@
 :root {
 	--back: rgb(31, 166, 255);
-    --back2: rgba(0, 40, 87, 0.5);
-    --foredark: hsla(0,0%,10%,1);
+  --back2: rgba(0, 40, 87, 0.5);
+  --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
 	--border: rgb(35, 124, 240);
 	--borderlight: hsl(0,0%,33%);

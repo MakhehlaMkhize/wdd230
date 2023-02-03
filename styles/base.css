@@ -91,33 +91,41 @@ iframe{
     height: auto;
 }
 /* --------FORM---------- */
+
+:root {
+	--back: hsl(0, 0%, 67%);
+    --headings: #445ba9;
+    --text: hsla(0,0%,10%,1);
+	--border: #445ba9;
+    
+}
 form fieldset{
     margin:  0 auto;
-    border: 1px solid #445ba9;
+    border: 1px solid var(--border);
     border-radius: 10px;
     padding: .5rem 2%;
     max-width: 22rem;
 }
 form legend{
-    color: #445ba9;
+    color: var(--text);
     margin: 0 .5rem;
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--headings);
     font-size: .8rem;
 }
 form label.top input, form label.top select{
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px var(--border);
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: var(--text);
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: var(--back);
     text-align: center;
     margin: 0 auto;
 }
