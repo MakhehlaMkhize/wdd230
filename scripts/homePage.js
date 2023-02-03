@@ -1,12 +1,13 @@
-const menu = document.querySelector(".material-symbols-outlined");
-const navItem = document.querySelectorAll("nav a");
+// const menu = document.querySelector(".material-symbols-outlined");
+// const navItem = document.querySelectorAll("nav a");
 
 
-menu.addEventListener("click", () => {
-	navItem.forEach((item) => item.classList.toggle("open"));
-	menu.classList.toggle("close");
-});
+// menu.addEventListener("click", () => {
+// 	navItem.forEach((item) => item.classList.toggle("open"));
+// 	menu.classList.toggle("close");
+// });
 
 
-
+const emailAddress = document.querySelector(".email");
+emailAddress.innerHTML= "Hello";
 

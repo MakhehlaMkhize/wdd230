@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta author="Makhehla Mkhize">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This page is a course assignment portal for Makhehla Mkhize's wdd230 module.">
     <meta property = "og:title" content=" Makhehla Mkhize WDD 230 student portal">
@@ -52,9 +53,30 @@
                 <span id="cardContent">Number of Visits: <span class="visits"></span></span>
             </section>
         </div>
-        
     </main>
     <iframe src="https://www.google.co.za/maps/place/Durban/@-29.8683995,30.8508638,11z/data=!3m1!4b1!4m6!3m5!1s0x1ef7aa0001bc61b7:0xcca75546c4aa6e81!8m2!3d-29.8586804!4d31.0218404!16zL20vMDF0anZ2?hl=en&authuser=0" loading="lazy" width="600" height="450" ></iframe>
+    
+    <form method="get" action="received.html">
+        <fieldset>
+            <legend>Send a message</legend>
+            <div id="formMessage"></div>
+            <label class="top" >Name* <input type="text" name="name" required id="nameEnttry"></label>
+            <label class="top" >Email* <input type="text" name="email" required id="emailEntry"></label>
+            <label class="top">
+                Rating <input type="range" name="rating" min="1" max="5" id="ratingEntry">
+                <span class="rateValue">1</span>
+                <span class="rateValue">2</span>
+                <span class="rateValue">3</span>
+                <span class="rateValue">4</span>
+                <span class="rateValue">5</span>
+            </label>
+            <label class="top">User Name Identifier <input type="password" id="userName" name="userName" pattern="(?=.*\d)(?=.{5,12}"
+                title="Must contain at least one none alpha-numeric character with a minimum of 5 maximum 12 characters">
+              </label>
+            <label class="top">Re-Enter User Name Identifier <input type="password" id="userNameConfirm" name="userNameConfirm"></label>
+            <input type="submit" value="Send Information" class="submitBtn">
+        </fieldset>
+    </form>
     <footer >
         <p>&copy; <span id="date"></span> | Makhehla Mkhize | South Africa</p>
         <p class="highlight" id="lastModified"></p>
@@ -62,5 +84,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/homePage.js"></script>
     <script src="scripts/visitCoutnt.js"></script>
+    <script src="scripts/userNameValidation.js"></script>
 </body>
 </html>
