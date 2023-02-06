@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durban Latter-Day Saints Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="navItem"><a href="index.html">Home</a></span>
+            <span class="navItem"><a href="discover.html">Discover</a></span>
+            <span class="navItem"><a href="#">Directory</a></span>
+            <span class="navItem"><a href="#">Join</a></span>
+            <span class="material-symbols-outlined"><button>menu</button> </span>
+        </nav>
+        <h1> Durban Latter-Day Saints Chamber of Commerce</h1>
+    </header>
+    <main class="joinMain">
+        <form method="get" action="thankYou.html" >
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top"> First Name* <input type="text" name="fname" required ></label>
+                <label class="top"> Last Name* <input type="text" name="lname" required ></label>
+                <label class="top"> Phone <input type="tel" name="Phone" placeholder="0124567891" required></label>
+                <label class="top"> Position in Company <input type="text" name="position"></label>
+                <label class="top"> Email* <input type="text" name="email" required placeholder="someone@domain.com"></label>
+                <label class="top"> Title <input type="text" name="title"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Details</legend>
+                <label class="top">Business Name <input type="text" name="bname" required></label>
+                <label class="top">Membership Level
+                    <select name="membership">
+                        <option value="">Please Select Membership</option>
+                        <option value="Non-profit Organisation">Non-profit Organisation Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="top">Business Description<textarea name="businessDescription" cols="5" rows="10"></textarea></label>
+            </fieldset>
+            <input type="submit" class="submitBtn" value="Register Business">
+        </form>
+        <aside class="membershipPrincing">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Membership Pricing</th>
+                    </tr>
+                    <tr>
+                        <th scope="colgroup">Level</th><th scope="colgroup">Prices</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Non-profit Organisation</td><td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Bronze</td><td>R100/year</td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td><td>R150/year</td>
+                    </tr>
+                    <tr>
+                        <td>Gold</td><td>R200/year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+        <aside class="membershipBenefits">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Membership Level Benefits</th>
+                    </tr>
+                    <tr>
+                        <th scope="colgroup">Level</th><th scope="colgroup"> Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Non-profit Organisation</td>
+                        <td>
+                            <ul>
+                                <li>abcde</li>
+                                <li>aaaaa</li>
+                                <li>bbbb</li>
+                                <li>cccc</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bronzee</td>
+                        <td>
+                            <ul>
+                                <li>aadf</li>
+                                <li>afdda</li>
+                                <li>adf</li>
+                                <li>asdfadf</li>
+                                <li>afdfa</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td>
+                        <td>
+                            <ul>
+                                <li>dafadsf</li>
+                                <li>afdadf</li>
+                                <li>adlkj</li>
+                                <li>adsfklj</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gold</td>
+                        <td>
+                            <ul>
+                                <li>dafadsf</li>
+                                <li>afdadf</li>
+                                <li>adlkj</li>
+                                <li>adsfklj</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+    </main>
+    <footer>
+        <div>
+            <div id="upperSection"><span>Durban Latter-Day Saints Chamber of Commerce</span> <br><br><span>info@Durbancc.org <br> +(27) 81 794 0122 <br>Location Map</span> </div> 
+            <div id="lowerSection"> &copy; <span id="date"></span> Durban Latter-Day Saints Chamber of Commerce | Makhehla Mkhize | WDD 230 Project Last Modification: <span id="lastModified"></span> <span></span></div> 
+        </div>
+    </footer>
+    <script src="scripts/lastModifiedScript.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
+</body>
+</html>

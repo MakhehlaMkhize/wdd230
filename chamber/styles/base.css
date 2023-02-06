@@ -114,3 +114,68 @@ aside{
     --main-color: hotpink;
     --pane-padding: 5px 42px;
   }
+/* ------------------------------Join Page------------------------------------ */
+:root{
+    --border: #000000;
+    --border2: #57f09e;
+    --background: #57f09e;
+    --background2: #000000;
+    --text1:#000000;
+    --text2: #57f09e;
+    --zebra: #aaf3cc;
+}
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: var(--background2);
+    color: var(--text2);
+    font-size: 20px;
+    padding: 20px;
+    border: var(--border2) solid 5px;
+    border-radius: 15px;
+}
+form fieldset{
+    margin: 20px 0;
+    border: 5px solid var(--border2);
+    border-radius: 10px;
+    display: block;
+}
+
+form legend{
+    color: var(--text2);
+}
+
+form label.top{
+    color: var(--text2);
+}
+form label.top input, form label.top select{
+    display: block;
+    border: solid 1px var(--border2);
+    border-radius: 4px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    color: var(--text1);
+    width: 80%;
+    max-width: 500px;
+    background-color: var(--zebra);
+    text-align: center;
+}
+textarea{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--zebra);
+}
+.submitBtn{
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* ----------------------Thank You Page------------------ */
+.thankYou{
+    border: solid 10px var(--border);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: var(--background);
+    padding: 20px;
+}

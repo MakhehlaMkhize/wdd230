@@ -37,6 +37,30 @@
         filter: none;
         scale: 1.1;
     }
-
-  
+        /* -------------Join Page--------------- */
+    .joinMain{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    form{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 100%;
+    }
+    .membershipPrincing{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: fit-content;
+        height: fit-content;
+        margin: auto auto;
+    }
+    .membershipBenefits{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: fit-content;
+        height: fit-content;
+    }
 }
+
+
