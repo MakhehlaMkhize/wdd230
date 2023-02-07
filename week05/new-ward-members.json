@@ -1,0 +1,23 @@
+{
+    "familyName" : "Mkhize",
+    "dateMovedIn" :  20230206 ,
+    "numberOfFamilyMembers" : "3",
+    "bishopricVisit" : "true",
+    "familyMembersNames":[
+        {
+            "name" : "Makhehla",
+            "gender" : "Male",
+            "birthDate" : 19940226
+        },
+        {
+            "name" : "Phumelele",
+            "gender" : "Female",
+            "birthDate" :19911013
+        }, 
+        {
+            "name" : "River",
+            "gender" : "Male",
+            "birthDate" : "20230103"
+        }
+    ]
+}
