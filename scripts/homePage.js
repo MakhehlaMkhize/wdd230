@@ -8,6 +8,5 @@
 // });
 
 
-const emailAddress = document.querySelector(".email");
-emailAddress.innerHTML= "Hello";
+
 

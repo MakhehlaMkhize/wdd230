@@ -1,0 +1,97 @@
+{
+    "weeks":[
+        {
+            "week": "week1",
+            "links": [
+                {
+                    "url": "week01/media-query.html",
+                    "title" : "Media-query"
+                },
+                {
+                    "url" : "week01/holyGrail.html",
+                    "title": "Holy-Grail"
+                }
+            ]
+        },
+        {
+            "week": "week2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title" : "Design Principles"
+                },
+                {
+                    "url" : "https://codepen.io/Makhehlam/pen/ExpmNgg",
+                    "title": "Responsive Hamburger Menu"
+                },
+                {
+                    "url" : "week02/bom.html",
+                    "title" : "Book Of Mormon Top 25"
+                }
+            ]
+        },
+        {
+            "week": "week3",
+            "links": [
+                {
+                    "url": "week03/images/Landscape.webp",
+                    "title" : "WebP"
+                },
+                {
+                    "url" : "week03/lazyLoad.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url" : "https://codepen.io/Makhehlam/pen/GRByJgg",
+                    "title" : "Responsive image"
+                }
+            ]
+        },
+        {
+            "week": "week4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Makhehlam/pen/ExpdzBj",
+                    "title" : "Pseudo Classes"
+                },
+                {
+                    "url" : "https://codepen.io/Makhehlam/pen/ExpmNgg",
+                    "title": "Responsive Hamburger Menu"
+                },
+                {
+                    "url" : "week04/images/selectorsExcersise.png",
+                    "title" : "CSS Combinators"
+                },
+                {
+                    "url" : "week04/tablebuild.html",
+                    "title" : "HTML Tables for Data Presentation"
+                },
+                {
+                    "url" : "week04/form-start/index.html",
+                    "title" : "Forms"
+                }
+            ]
+        },
+        {
+            "week": "week5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Makhehlam/pen/VwBRNOQ",
+                    "title" : "Pseudo Elements"
+                },
+                {
+                    "url" : "week05/new-ward-members.json",
+                    "title": "JSON practice"
+                },
+                {
+                    "url" : "week05/prophets.html",
+                    "title" : "Prophets"
+                },
+                {
+                    "url" : "week05/weather.html",
+                    "title" : "Weather API"
+                }
+            ]
+        }
+    ]
+}
