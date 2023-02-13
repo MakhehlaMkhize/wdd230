@@ -1,0 +1,69 @@
+{
+    "membership" :[
+        {
+            "name" : "Makhehla Welders",
+            "address": "10 Charles Mowat Road",
+            "phone" : "073 256 5586",
+            "website": "http://www.welders.com",
+            "websiteLink": "www.welders.com",
+            "image": "images/welding.webp",
+            "membership":"Silver"
+        },
+        {
+            "name" : "Mpumelelo Tree Fellers",
+            "address": "20 Summer Field circle",
+            "phone" : "085 666 8910",
+            "website": "http://www.treefellers.com",
+            "websiteLink": "www.treefellers.com",
+            "image": "images/treefellers.webp",
+            "membership":"Gold"
+        },
+        {
+            "name" : "Phumelele Plumbers",
+            "address": "20 Helen Joseph Road",
+            "phone" : "081 556 7236",
+            "website": "http://www.plumbers.com",
+            "websiteLink": "www.plumbers.com",
+            "image": "images/plumbing.webp",
+            "membership":"Silver"
+        },
+        {
+            "name" : "Silindokuhle Painters",
+            "address": "156 Umbumbulu Road",
+            "phone" : "073 256 5586",
+            "website": "http://www.painters.com",
+            "websiteLink": "www.painters.com",
+            "image": "images/painting.webp",
+            "membership":"bronze"
+        },
+        {
+            "name" : "Angela Mechanics",
+            "address": "28 Wade Road",
+            "phone" : "083 543 4489",
+            "website": "http://www.mechanics.com",
+            "websiteLink": "www.mechanics.com",
+            "image": "images/mechanic.webp",
+            "membership":"Silver"
+        },
+        {
+            "name" : "Mkhize Lawn Mowers",
+            "address": "46 Ronald Road",
+            "phone" : "073 564 8840",
+            "website": "http://www.lawns.com",
+            "websiteLink": "www.lawns.com",
+            "image": "images/lawn.webp",
+            "membership":"bronze"
+        },
+        {
+            "name" : "Cumaio Electrical",
+            "address": "16 EarlsFields",
+            "phone" : "061 556 4413",
+            "website": "http://www.elecricals.com",
+            "websiteLink": "www.elecricals.com",
+            "image": "images/electrical.webp",
+            "membership":"Gold"
+        }
+
+    ]
+}
+

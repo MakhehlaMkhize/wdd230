@@ -6,8 +6,3 @@ menu.addEventListener("click", () => {
 	navItem.forEach((item) => item.classList.toggle("open"));
 	menu.classList.toggle("close");
 });
-
-const moreInfo = document.querySelector("moreInfo");
-moreInfo.addEventListener("click", ()=> {
-    
-})

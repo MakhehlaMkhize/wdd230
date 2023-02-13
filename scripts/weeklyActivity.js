@@ -1,6 +1,5 @@
 const project = document.querySelector("#learningActivity");
 
-
 let projectUrl = "scripts/dynamicLinks.json";
 
 async function apiFetch(){
