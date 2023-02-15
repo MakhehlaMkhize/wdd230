@@ -20,7 +20,7 @@ async function apiFetch(){
 apiFetch();
 
 function displayWeather(data){
-  let icon = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+  let icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
   let desc = `${data.weather[0].description}`;
   let currentTemp = document.createElement("p");
   let weatherIcon = document.createElement("img");
