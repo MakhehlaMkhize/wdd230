@@ -1,7 +1,8 @@
 const displayDirectory = document.querySelector(".directory");
-const url = "../chamber/data/members.json";
+const memberUrl = "../chamber/data/members.json";
+
 async function getMembershipData(){
-    const response = await fetch(url);
+    const response = await fetch(memberUrl);
     const data = await response.json();
     console.log(data);
     displayBusinessCards(data.membership);
@@ -29,7 +30,7 @@ const displayBusinessCards = (membership)=>{
         webSite.title = `${member.websiteLink}`;
         webSite.target ="blank";
         membershipLevel.textContent = `Membership Level: ${member.membership}`;
-        
+
         
         card.appendChild(image);
         card.appendChild(name);
@@ -41,4 +42,5 @@ const displayBusinessCards = (membership)=>{
         displayDirectory.appendChild(card);
     })
 }
+// -------------------Silver and Gold member free advertisement
 

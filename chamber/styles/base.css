@@ -38,7 +38,7 @@ header{
 
 #heroImage{
     height: 30vw;
-    width: 100vw;
+    width: 100%;
     object-fit:cover;
     object-position: center center;
 }
@@ -65,9 +65,21 @@ h3{
     background-color: #57f09e;
     border: black solid 1px;
     border-radius: 10px;
-    width: 50vw;
-    height: 50vw;
+    width: 80%;
     margin: 0 auto;
+}
+.advertise {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    margin: 25px auto;
+}
+.advertise div{
+    border: solid black 2px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color:gold ;
 }
 #spotLight h2{
     background-color: black;
@@ -114,6 +126,12 @@ aside{
     --main-color: hotpink;
     --pane-padding: 5px 42px;
   }
+.banner{
+    padding: 5px;
+    font-weight: 900;
+    background-color: #57f09e;
+    color: #000000;
+}
 /* ------------------------------Join Page------------------------------------ */
 :root{
     --border: #000000;
