@@ -1,4 +1,7 @@
 const displayDirectory = document.querySelector(".directory");
+const displayListDirectory = document.querySelector(".list");
+const gridView = document.querySelector(".gridBtn");
+const listView = document.querySelector("listBtn");
 const memberUrl = "../chamber/data/members.json";
 
 async function getMembershipData(){
@@ -6,12 +9,11 @@ async function getMembershipData(){
     const data = await response.json();
     console.log(data);
     displayBusinessCards(data.membership);
-
 }
 getMembershipData();
 
 const displayBusinessCards = (membership)=>{
-    membership.forEach((member) =>{
+    membership.forEach((member=>{
         let card = document.createElement("section");
         let name = document.createElement("h2"); 
         let image = document.createElement("img");
@@ -20,6 +22,7 @@ const displayBusinessCards = (membership)=>{
         let webSite = document.createElement("a")
         let membershipLevel = document.createElement("p");
 
+    
         name.textContent = `${member.name}`;
         image.setAttribute("src", `${member.image}`);
         address.textContent = `${member.address}`;
@@ -31,7 +34,7 @@ const displayBusinessCards = (membership)=>{
         webSite.target ="blank";
         membershipLevel.textContent = `Membership Level: ${member.membership}`;
 
-        
+    
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(membershipLevel);
@@ -40,7 +43,9 @@ const displayBusinessCards = (membership)=>{
 
         card.appendChild(address);
         displayDirectory.appendChild(card);
-    })
-}
-// -------------------Silver and Gold member free advertisement
 
+    }))};
+    
+            
+        
+// --------------List View--------------
